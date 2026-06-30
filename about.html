@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustache Enthusiast</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class=" flex flex-col items-center min-h-full mt-10 min-w-full">
+    <header class="flex flex-col justify-center items-center">
+
+      <img class="mb-4" src="images/logo.jpg">
+
+      <div class="flex justify-center relative w-[100%] sm:hidden">
+        <input id="menu-toggle" type="checkbox" class="hidden peer">
+
+        <label for="menu-toggle" class="px-2 pb-1  cursor-pointer list-none text-3xl sm:hidden text-white bg-[rgb(0,164,156)] rounded-sm">
+          &#9776;
+        </label>
+
+        <div class="flex-col absolute hidden sm:hidden peer-checked:block z-10 mt-14 w-[80%] text-center justify-center align-middle items-center">
+
+          <a href="index.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-whit border-2 rounded-md opacity-90 pt-1">HOME</p>
+          </a>
+
+          <a href="about.html">
+            <p class="font-bold text-white bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">ABOUT</p>
+          </a>
+
+          <a href="gallery.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">GALLERY</p>
+          </a>
+
+          <a href="blog.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">BLOG</p>
+          </a>
+
+          <a href="contact.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">CONTACT</p>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="hidden sm:block mt-8 mb-10">
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="index.html">HOME</a>
+        <a class="font-extrabold m-5 text-[rgb(0,164,156)]" href="about.html">ABOUT</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="gallery.html">GALLERY</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="blog.html">BLOG</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="contact.html">CONTACT</a>
+      </div>
+    </header>
+
+    <main class="flex w-[80%]">
+      <div class="flex flex-col items-center justify-center mb-5 w-full">
+        <h2 class="text-white text-2xl text-center font-poller font-extrabold bg-[#252525] px-4 py-2 w-[60%] my-5">MUSTACCHIO STARTED</h2>
+
+        <img src="images/photographer.jpg" class="border-[1.5px] border-black">
+
+        <div class="flex flex-col items-center w-[70%] lg:w-[60%] text-center m-2">
+          <h3 class="font-bold m-2 text-xl">Why Mustache Enthusiast Exists</h3>
+          <div>Mustache Enthusiast was created for men who appreciate the art and culture of a well-groomed mustache. From beginners to seasoned groomers, we provide inspiration, practical tips, and trusted guidance to help you grow, style, and maintain your perfect look.</div>
+        </div>
+
+        <div class="flex flex-col items-center w-[70%] lg:w-[60%] text-center m-2">
+          <h3 class="font-bold m-2 text-xl">What You'll Find Here</h3>
+          <div>Explore mustache style galleries, grooming guides, product recommendations, and trend updates all in one place. Whether you're searching for classic inspiration or modern ideas, you'll find content designed to elevate your mustache game.</div>
+        </div>
+
+        <div class="flex flex-col items-center w-[70%] lg:w-[60%] text-center m-2">
+          <h3 class="font-bold m-2 text-xl">About Mustache Enthusiast</h3>
+          <div>Mustache Enthusiast is dedicated to celebrating mustache culture and helping men look their best. Our goal is to inspire confidence through great grooming and timeless style.</div>
+        </div>
+
+        <div class="flex flex-col items-center w-[70%] lg:w-[60%] text-center m-2">
+          <h3 class="font-bold m-2 text-xl">Join the Mustache Community</h3>
+          <div>Connect with fellow mustache lovers, share your style, ask questions, and learn from others who share your passion. Mustache Enthusiast is more than a website - it's a growing community.</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-[#252525] w-full h-32 my-10 flex flex-col sm:flex-row sm:justify-evenly justify-center align-middle items-center">      
+          <div class="text-white text-sm flex justify-center my-4">© 2026 by Ayisayir. All rights reserved.
+          </div>
+        <div class="flex justify-center align-middle">
+          <a href="https://x.com/ayisayir" target="_blank">
+            <img src="icons/icons8-x-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+          <a href="https://www.facebook.com/share/18uXuLsKm3/" target="_blank">
+            <img src="icons/icons8-facebook-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+
+          <a href="https://wa.me/2349019732199" target="_blank">
+            <img src="icons/icons8-whatsapp-50.png" class="cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+
+          <a href="https://www.instagram.com/ayisayir?igsh=MTJqcnc5eXJtdHd5dA%3D%3D" target="_blank">
+            <img src="icons/icons8-instagram-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+          
+        </div>
+    </footer>
+  </body>
+</html>

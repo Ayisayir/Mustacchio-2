@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "PollerOne";
+  src: url(fonts/pollerone/pollerone-webfont.eot) format("embedded-opentype"),
+  url(fonts/pollerone/pollerone-webfont.svg) format("svg"),
+  url(fonts/pollerone/pollerone-webfont.ttf) format("truetype"),
+  url(fonts/pollerone/pollerone-webfont.woff) format(woff);
+}
+
+@font-face {
+  font-family: "LeckerliaOne";
+  src: url(fonts/leckerlione/leckerlione-regular-webfont.eot) format("embedde-opentype"),
+  url(fonts/leckerlione/leckerlione-regular-webfont.svg) format("svg"),
+  url(fonts/leckerlione/leckerlione-regular-webfont.ttf) format("truetype"),
+  url(fonts/leckerlione/leckerlione-regular-webfont.woff) format(woff);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

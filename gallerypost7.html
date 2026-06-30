@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustache Enthusiast</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="flex flex-col items-center min-h-full mt-10 min-w-full">
+
+    <header class="flex flex-col justify-center items-center">
+
+      <img class="mb-4" src="images/logo.jpg">
+
+      <div class="flex justify-center relative w-[100%] mb-4 sm:hidden">
+        <input id="menu-toggle" type="checkbox" class="hidden peer">
+
+        <label for="menu-toggle" class="px-2 pb-1  cursor-pointer list-none text-3xl sm:hidden text-white bg-[rgb(0,164,156)] rounded-sm">
+          &#9776;
+        </label>
+
+        <div class="flex-col absolute hidden sm:hidden peer-checked:block z-10 mt-14 w-[80%] text-center justify-center align-middle items-center">
+
+          <a href="index.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-whit border-2 rounded-md opacity-90 pt-1">HOME</p>
+          </a>
+
+          <a href="about.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">ABOUT</p>
+          </a>
+
+          <a href="gallery.html">
+            <p class="font-bold text-white bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">GALLERY</p>
+          </a>
+
+          <a href="blog.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">BLOG</p>
+          </a>
+
+          <a href="contact.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">CONTACT</p>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hidden sm:block mt-8 mb-10">
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="index.html">HOME</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="about.html">ABOUT</a>
+        <a class="font-extrabold m-5 text-[rgb(0,164,156)]" href="gallery.html">GALLERY</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="blog.html">BLOG</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="contact.html">CONTACT</a>
+      </div>
+    </header>
+
+    <main class="w-[80%]">
+      <div class="flex flex-col items-center mb-5 w-full">
+        <h2 class="text-white text-2xl text-center font-poller font-extrabold bg-[#252525] px-4 py-2 w-[95%] md:w-[50%] mb-5">GALLERY SINGLE POST
+        </h2>
+
+        <img src="images/mustache-7.png" class="border-2 border-black">
+
+        <h2 class="text-xl text-white bg-[#252525] mt-4 py-1.5 px-8 font-bold">THE THINKER</h2>
+
+        <div class="text-center mt-2 md:w-[60%]">
+          Refined and purposeful, this mustache complements curiosity and introspection. It reflects a mind shaped by ideas, observation, and intention where style is thoughtful rather than accidental.
+        </div>
+      </div>  
+    </main>
+
+    <footer class="bg-[#252525] w-full h-32 my-10 flex flex-col sm:flex-row sm:justify-evenly justify-center align-middle items-center">      
+          <div class="text-white text-sm flex justify-center my-4">© 2026 by Ayisayir. All rights reserved.
+          </div>
+        <div class="flex justify-center align-middle">
+          <a href="https://x.com/ayisayir" target="_blank">
+            <img src="icons/icons8-x-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+          <a href="https://www.facebook.com/share/18uXuLsKm3/" target="_blank">
+            <img src="icons/icons8-facebook-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+
+          <a href="https://wa.me/2349019732199" target="_blank">
+            <img src="icons/icons8-whatsapp-50.png" class="cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+
+          <a href="https://www.instagram.com/ayisayir?igsh=MTJqcnc5eXJtdHd5dA%3D%3D" target="_blank">
+            <img src="icons/icons8-instagram-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+          
+        </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustache Enthusiast</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="flex flex-col items-center min-h-full mt-10 min-w-full">
+
+    <header class="flex flex-col justify-center items-center">
+
+      <img class="mb-4" src="images/logo.jpg">
+
+      <div class="flex justify-center relative w-[100%] sm:hidden mb-2">
+        <input id="menu-toggle" type="checkbox" class="hidden peer">
+
+        <label for="menu-toggle" class="px-2 pb-1  cursor-pointer list-none text-3xl sm:hidden text-white bg-[rgb(0,164,156)] rounded-sm">
+          &#9776;
+        </label>
+
+        <div class="flex-col absolute hidden sm:hidden peer-checked:block z-10 mt-14 w-[80%] text-center justify-center align-middle items-center">
+
+          <a href="index.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-whit border-2 rounded-md opacity-90 pt-1">HOME</p>
+          </a>
+
+          <a href="about.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">ABOUT</p>
+          </a>
+
+          <a href="gallery.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">GALLERY</p>
+          </a>
+
+          <a href="blog.html">
+            <p class="font-bold text-white bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">BLOG</p>
+          </a>
+
+          <a href="contact.html">
+            <p class="font-bold text-white bg-[rgb(0,164,156)] hover:bg-black h-10 my-1 border-white border-2 rounded-md opacity-90 pt-1">CONTACT</p>
+          </a>
+
+        </div>
+      </div>
+      
+      <div class="hidden sm:block mt-8 mb-10">
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="index.html">HOME</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="about.html">ABOUT</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="gallery.html">GALLERY</a>
+        <a class="font-extrabold m-5 text-[rgb(0,164,156)]" href="blog.html">BLOG</a>
+        <a class="font-extrabold m-5 hover:text-[rgb(0,164,156)]" href="contact.html">CONTACT</a>
+      </div>
+    </header>
+
+    <main class="flex flex-col items-center justify-center w-[80%]">
+      <div class="flex flex-col items-center mb-5">
+        <h2 class="text-white text-2xl text-center font-poller font-extrabold bg-[#252525] px-6 py-2 mt-2 w-full sm:w-[30%]">BLOG</h2>
+
+        <div class="flex flex-col items-center md:flex-row my-8 border-2 border-black md:w-[90%] h-fit">
+          <img src="images/cutting-mustache.jpg" class=" w-full md:w-[50%] md:border-r-2 md:border-black">
+          <div class="flex flex-col items-center text-center md:w-[50%] my-5 md:my-1 lg:my-5">
+            <h1 class="text-2xl">WHY I GREW A MUSTACHE</h1>
+            <h3 class="text-sm my-5 w-[80%] md:my-1 lg:my-5 md:w-[80%]">It started as a joke. It became a lifestyle. Somewhere along the way, the mustache took control and I'm honestly okay with that.</h3>
+            <a href="blogpost.html">
+             <button class="bg-black text-white text-sm px-4 py-2 m-10 md:m-2 lg:m-10 cursor-pointer hover:bg-white hover:text-black hover:border-[1px] hover:border-black transition-all duration-300">READ MORE</button>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row my-10 border-2 border-black md:w-[90%] h-fit">
+          <img src="images/in-the-country.jpg" class=" w-full md:w-[50%] md:border-r-2 md:border-black">
+          <div class="flex flex-col items-center text-center md:w-[50%] my-5 md:my-1 lg:my-5">
+            <h1 class="text-2xl">LIFE WITH A MUSTACHE</h1>
+            <h3 class="text-sm my-5 w-[80%] md:my-1 lg:my-5 md:w-[80%]">More compliments. More character. More responsibility. Because great mustaches don't groom themselves.</h3>
+            <a href="blogpost2.html">
+             <button class="bg-black text-white text-sm px-4 py-2 m-10 md:m-2 lg:m-10 cursor-pointer hover:bg-white hover:text-black hover:border-[1px] hover:border-black transition-all duration-300">READ MORE</button>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row my-5 border-2 border-black md:w-[90%] h-fit">
+          <img src="images/mustache-brothers.jpg" class=" w-full md:w-[50%] md:border-r-2 md:border-black">
+          <div class="flex flex-col items-center text-center md:w-[50%] my-5 md:my-1 lg:my-5">
+            <h1 class="text-2xl">THE MUSTACHE BROTHERS</h1>
+            <h3 class="text-sm my-5 w-[80%] md:my-1 lg:my-5 md:w-[80%]">Two brothers. One passion. Unlimited mustache greatness. We bond over grooming, styles, and a deep respect for the power of a well-grown mustache.</h3>
+            <a href="blogpost3.html">
+             <button class="bg-black text-white text-sm px-4 py-2 m-10 md:m-2 lg:m-10 cursor-pointer hover:bg-white hover:text-black hover:border-[1px] hover:border-black transition-all duration-300">READ MORE</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-[#252525] w-full h-32 my-10 flex flex-col sm:flex-row sm:justify-evenly justify-center align-middle items-center">      
+          <div class="text-white text-sm flex justify-center my-4">© 2026 by Ayisayir. All rights reserved.
+          </div>
+        <div class="flex justify-center align-middle">
+          <a href="https://x.com/ayisayir" target="_blank">
+            <img src="icons/icons8-x-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+          <a href="https://www.facebook.com/share/18uXuLsKm3/" target="_blank">
+            <img src="icons/icons8-facebook-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+
+          <a href="https://wa.me/2349019732199" target="_blank">
+            <img src="icons/icons8-whatsapp-50.png" class="cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+
+          <a href="https://www.instagram.com/ayisayir?igsh=MTJqcnc5eXJtdHd5dA%3D%3D" target="_blank">
+            <img src="icons/icons8-instagram-44.png" class="mx-2 cursor-pointer hover:opacity-60 transition-all duration-400 sm:w-fit">
+          </a>
+          
+        </div>
+    </footer>
+  </body>
+</html>
